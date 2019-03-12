@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1552415145812">
+      <file name="/Dummy.txt" timestamp="1552424942712">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/Python Console" timestamp="1552162971136">
@@ -61,6 +61,12 @@
         <mark key="]" line="40" column="29" />
         <mark key="^" line="40" column="29" />
         <mark key="." line="40" column="29" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/ppe/ru.py" timestamp="1552425263558">
+        <mark key="[" line="31" column="11" />
+        <mark key="]" line="33" column="0" />
+        <mark key="^" line="33" column="0" />
+        <mark key="." line="33" column="0" />
       </file>
     </filemarks>
     <jumps>
