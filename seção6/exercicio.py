@@ -119,9 +119,93 @@ for i in range(3, 100, 2):
     divisor += 1
     soma += i / divisor
 print(soma)
-"""
 
 # Exercicio 32
-
+from random import randrange
 n = int(input('Digite quantas vezes os dados serão lançados: '))
+for i in range(n):
+    dado1 = randrange(1, 6)
+    dado2 = randrange(1, 6)
+    if dado1 > dado2:
+        print(f'O dado 1 ({dado1}) é maior que o dado 2 ({dado2}).')
+    elif dado1 < dado2:
+        print(f'O dado 2 ({dado2}) é maior que o dado 1 ({dado1}).')
+    else:
+        print(f'Os dados tem o mesmo valor (dado1 ({dado1}) = dado2 ({dado2})).')
+
+# Exercicio 35
+soma = 0
+inicial = int(input('Digite o valor inicial: '))
+final = int(input('Digite o valor final: '))
+if inicial > final:
+    print('Intervalo de valores inválido.')
+    quit()
+for i in range(inicial, final+1):
+    if i % 2 == 1:
+        print(f'Somando o valor {i} ...')
+        soma += i
+print(f'A soma dos ímpares é {soma}')
+
+# Exercicio 36
+soma_quadrado = 0
+quadrado_soma = 0
+soma = 0
+for num in range(1, 101):
+    soma_quadrado += num ** 2
+    soma += num
+quadrado_soma = soma ** 2
+print(f'A diferença entre o quadrado da soma ({quadrado_soma}) e \n'
+      f'a soma dos quadrados ({soma_quadrado}) dos 100 primeiros \n'
+      f'números naturais é {quadrado_soma - soma_quadrado}')
+
+# Exercicio 37
+for num in range(1000, 10000):
+    num1 = int(num / 100)
+    num2 = int(num % 100)
+    soma = num1 + num2
+    if soma ** 2 == num:
+        print(f'{num}')
+
+# Exercicio 38
+lista = []
+while True:
+    num = int(input('Digite um número natural positivo ou um número negativo para sair: '))
+    if num < 0:
+        break
+    lista.append(num)
+print(f'O maior número digitado é {max(lista)}')
+print(f'O menor número digitado é {min(lista)}')
+
+# Exercicio 47
+menu = {'1': 'Adição: ',
+        '2': 'Subtração: ',
+        '3': 'Multiplicação: ',
+        '4': 'Divisão: ',
+        '5': 'Sair'}
+while True:
+    options = menu.keys()
+    for entry in options:
+        print(f'{entry}. {menu[entry]}')
+    selection = input('Digite uma opção: ')
+    if selection == '1':
+        num1 = int(input('Digite o primeiro número: '))
+        num2 = int(input('Digite o segundo número: '))
+        print(f'A soma dos valores é {num1 + num2}')
+    elif selection == '2':
+        num1 = int(input('Digite o primeiro número: '))
+        num2 = int(input('Digite o segundo número: '))
+        print(f'A subtração dos valores é {num1 - num2}')
+    elif selection == '3':
+        num1 = int(input('Digite o primeiro número: '))
+        num2 = int(input('Digite o segundo número: '))
+        print(f'A multiplicação dos valores é {num1 * num2}')
+    elif selection == '4':
+        num1 = int(input('Digite o primeiro número: '))
+        num2 = int(input('Digite o segundo número: '))
+        print(f'A divisão dos valores é {num1 / num2}')
+    elif selection == '5':
+        break
+    else:
+        print('Opção inválida.')
+"""
 
