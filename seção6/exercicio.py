@@ -119,9 +119,17 @@ for i in range(3, 100, 2):
     divisor += 1
     soma += i / divisor
 print(soma)
-"""
 
 # Exercicio 32
-
+from random import randrange
 n = int(input('Digite quantas vezes os dados serão lançados: '))
-
+for i in range(n):
+    dado1 = randrange(1, 6)
+    dado2 = randrange(1, 6)
+    if dado1 > dado2:
+        print(f'O dado 1 ({dado1}) é maior que o dado 2 ({dado2}).')
+    elif dado1 < dado2:
+        print(f'O dado 2 ({dado2}) é maior que o dado 1 ({dado1}).')
+    else:
+        print(f'Os dados tem o mesmo valor (dado1 ({dado1}) = dado2 ({dado2})).')
+"""
