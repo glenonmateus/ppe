@@ -165,6 +165,16 @@ for num in range(1000, 10000):
     soma = num1 + num2
     if soma ** 2 == num:
         print(f'{num}')
-"""
 
+# Exercicio 38
+lista = []
+while True:
+    num = int(input('Digite um número natural positivo ou um número negativo para sair: '))
+    if num < 0:
+        break
+    lista.append(num)
+print(f'O maior número digitado é {max(lista)}')
+print(f'O menor número digitado é {min(lista)}')
+
+"""
 
