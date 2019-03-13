@@ -3,11 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1552514729146">
+      <file name="/Dummy.txt" timestamp="1552517727483">
         <mark key="[" line="0" column="0" />
         <mark key="." line="0" column="30" />
       </file>
-      <file name="/Python Console" timestamp="1552515124121">
+      <file name="/Python Console" timestamp="1552516755804">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção7/conjuntos.py" timestamp="1552090319603">
@@ -22,11 +22,11 @@
         <mark key="^" line="55" column="26" />
         <mark key="." line="55" column="26" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/ppe/seção6/exercicio.py" timestamp="1552515121112">
-        <mark key="[" line="226" column="16" />
-        <mark key="]" line="226" column="17" />
-        <mark key="." line="226" column="17" />
-        <mark key="^" line="226" column="17" />
+      <file name="$USER_HOME$/PycharmProjects/ppe/seção6/exercicio.py" timestamp="1552518002877">
+        <mark key="[" line="250" column="23" />
+        <mark key="]" line="251" column="0" />
+        <mark key="." line="251" column="0" />
+        <mark key="^" line="252" column="17" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção7/counter.py" timestamp="1552163582561">
         <mark key="[" line="42" column="0" />
@@ -45,6 +45,12 @@
         <mark key="]" line="2" column="3" />
         <mark key="^" line="2" column="3" />
         <mark key="." line="2" column="3" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/ppe/seção4/tipo_string.py" timestamp="1552515349499">
+        <mark key="[" line="48" column="13" />
+        <mark key="]" line="48" column="13" />
+        <mark key="^" line="48" column="13" />
+        <mark key="." line="48" column="13" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção7/deque.py" timestamp="1552343553538">
         <mark key="[" line="26" column="60" />
@@ -81,40 +87,40 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBzb21hICs9IGkK</text>
       </register>
       <register name="-" type="4">
-        <text>primeiro</text>
+        <text>'\n'</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">c2FsYXJpbzEgPSBmbG9hdChpbnB1dCgnRGlnaXRlIG8gcHJpbWVpcm8gc2Fsw6FyaW86ICcpKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">ICAgICAgICBzb21hICs9IGkK</text>
       </register>
-      <register name="2" type="4">
-        <text encoding="base64">CiMgRXhlcmNpY2lvIDQ5CnNhbGFyaW9fY2FybG9zID0gZmxvYXQoaW5wdXQoJ0RpZ2l0ZSBvIHNhbMOhcmlvIGRvIENhcmxvczogJykpCnNhbGFyaW9fam9hbyA9IHNhbGFyaW9fY2FybG9zIC8gMwphcGxpY2FjYW9fY2FybG9zID0gc2FsYXJpb19jYXJsb3MKYXBsaWNhY2FvX2pvYW8gPSBzYWxhcmlvX2pvYW8KbWVzZXMgPSAwCndoaWxlIGFwbGljYWNhb19jYXJsb3MgPiBhcGxpY2FjYW9fam9hbzoKICAgIGFwbGljYWNhb19jYXJsb3MgKz0gYXBsaWNhY2FvX2NhcmxvcyAqIDAuMDIKICAgIGFwbGljYWNhb19qb2FvICs9IGFwbGljYWNhb19qb2FvICogMC4wNQogICAgbWVzZXMgKz0gMQpwcmludChmJ3ttZXNlc30nKQ==</text>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGlmIG51bSAlIGkgPT0gMDoK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">cHJpbnQoc2FsYXJpb19qb2FvKQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">cHJpbnQoc2FsYXJpb19jYXJsb3MpCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="5" type="2">
-        <text encoding="base64">c2FsYXJpbzIgPSBmbG9hdChpbnB1dCgnRGlnaXRlIG8gc2VndW5kbyBzYWzDoXJpbzogJykpCg==</text>
+      <register name="5" type="4">
+        <text encoding="base64">CiMgRXhlcmNpY2lvIDU0Cm51bSA9IGludChpbnB1dCgnRGlnaXRlIHVtIG7Dum1lcm86ICcpKQpwcmltbyA9IFRydWUKaWYgbnVtIDw9IDE6CiAgICBwcmludCgnVmFsb3IgaW52w6FsaWRvLicpCiAgICBxdWl0KCkKZm9yIGkgaW4gcmFuZ2UoMiwgbnVtKToKICAgIGlmIG51bSAlIGkgPT0gMDoKICAgICAgICBwcmltbyA9IEZhbHNlCiAgICAgICAgYnJlYWsKaWYgcHJpbW86CiAgICBwcmludCgnTsO6bWVybyDDqSBwcmltby4nKQplbHNlOgogICAgcHJpbnQoJ07Dum1lcm8gbsOjbyDDqSBwcmltby4nKQ==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">c2FsYXJpbzEgPSBmbG9hdChpbnB1dCgnRGlnaXRlIG8gcHJpbWVpcm8gc2Fsw6FyaW86ICcpKQo=</text>
+        <text encoding="base64">ICAgICAgICBwcmludChmJ07Dum1lcm8gbsOjbyDDqSBwcmltby4nKQo=</text>
       </register>
-      <register name="7" type="2">
-        <text encoding="base64">c2FsYXJpbzIgPSBmbG9hdAo=</text>
+      <register name="7" type="4">
+        <text encoding="base64">CiMgRXhlcmNpY2lvIDUzCm51bSA9IGludChpbnB1dCgnRGlnaXRlIHVtIG7Dum1lcm86ICcpKQp2YWxvciA9IDAKZm9yIGkgaW4gcmFuZ2UoMSwgbnVtICsgMSk6CiAgICBmb3IgaiBpbiByYW5nZSgxLCBpICsgMSk6CiAgICAgICAgdmFsb3IgKz0gMQogICAgICAgIHByaW50KGYne3ZhbG9yfScsIGVuZD0nICcpCiAgICBwcmludCgp</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaW50KCdcbicpCg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBwcmludCgyLCBlbmQ9JyAnKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
