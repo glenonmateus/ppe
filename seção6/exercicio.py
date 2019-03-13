@@ -145,4 +145,18 @@ for i in range(inicial, final+1):
         print(f'Somando o valor {i} ...')
         soma += i
 print(f'A soma dos ímpares é {soma}')
+
+# Exercicio 36
+soma_quadrado = 0
+quadrado_soma = 0
+soma = 0
+for num in range(1, 101):
+    soma_quadrado += num ** 2
+    soma += num
+quadrado_soma = soma ** 2
+print(f'A diferença entre o quadrado da soma ({quadrado_soma}) e \n'
+      f'a soma dos quadrados ({soma_quadrado}) dos 100 primeiros \n'
+      f'números naturais é {quadrado_soma - soma_quadrado}')
 """
+
+
