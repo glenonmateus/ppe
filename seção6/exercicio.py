@@ -157,6 +157,14 @@ quadrado_soma = soma ** 2
 print(f'A diferença entre o quadrado da soma ({quadrado_soma}) e \n'
       f'a soma dos quadrados ({soma_quadrado}) dos 100 primeiros \n'
       f'números naturais é {quadrado_soma - soma_quadrado}')
+
+# Exercicio 37
+for num in range(1000, 10000):
+    num1 = int(num / 100)
+    num2 = int(num % 100)
+    soma = num1 + num2
+    if soma ** 2 == num:
+        print(f'{num}')
 """
 
 
