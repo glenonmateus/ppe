@@ -176,5 +176,36 @@ while True:
 print(f'O maior número digitado é {max(lista)}')
 print(f'O menor número digitado é {min(lista)}')
 
+# Exercicio 47
+menu = {'1': 'Adição: ',
+        '2': 'Subtração: ',
+        '3': 'Multiplicação: ',
+        '4': 'Divisão: ',
+        '5': 'Sair'}
+while True:
+    options = menu.keys()
+    for entry in options:
+        print(f'{entry}. {menu[entry]}')
+    selection = input('Digite uma opção: ')
+    if selection == '1':
+        num1 = int(input('Digite o primeiro número: '))
+        num2 = int(input('Digite o segundo número: '))
+        print(f'A soma dos valores é {num1 + num2}')
+    elif selection == '2':
+        num1 = int(input('Digite o primeiro número: '))
+        num2 = int(input('Digite o segundo número: '))
+        print(f'A subtração dos valores é {num1 - num2}')
+    elif selection == '3':
+        num1 = int(input('Digite o primeiro número: '))
+        num2 = int(input('Digite o segundo número: '))
+        print(f'A multiplicação dos valores é {num1 * num2}')
+    elif selection == '4':
+        num1 = int(input('Digite o primeiro número: '))
+        num2 = int(input('Digite o segundo número: '))
+        print(f'A divisão dos valores é {num1 / num2}')
+    elif selection == '5':
+        break
+    else:
+        print('Opção inválida.')
 """
 
