@@ -3,11 +3,11 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1552511741959">
+      <file name="/Dummy.txt" timestamp="1552514729146">
         <mark key="[" line="0" column="0" />
         <mark key="." line="0" column="30" />
       </file>
-      <file name="/Python Console" timestamp="1552162971136">
+      <file name="/Python Console" timestamp="1552515124121">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção7/conjuntos.py" timestamp="1552090319603">
@@ -22,11 +22,11 @@
         <mark key="^" line="55" column="26" />
         <mark key="." line="55" column="26" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/ppe/seção6/exercicio.py" timestamp="1552511643698">
-        <mark key="[" line="168" column="0" />
-        <mark key="]" line="168" column="0" />
-        <mark key="." line="168" column="0" />
-        <mark key="^" line="168" column="0" />
+      <file name="$USER_HOME$/PycharmProjects/ppe/seção6/exercicio.py" timestamp="1552515121112">
+        <mark key="[" line="226" column="16" />
+        <mark key="]" line="226" column="17" />
+        <mark key="." line="226" column="17" />
+        <mark key="^" line="226" column="17" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção7/counter.py" timestamp="1552163582561">
         <mark key="[" line="42" column="0" />
@@ -81,40 +81,40 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="-" type="4">
-        <text>maio</text>
+        <text>primeiro</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ZGFkbzEgPSByYW5kcmFuZ2UoMSwgNikK</text>
+        <text encoding="base64">c2FsYXJpbzEgPSBmbG9hdChpbnB1dCgnRGlnaXRlIG8gcHJpbWVpcm8gc2Fsw6FyaW86ICcpKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="2" type="4">
+        <text encoding="base64">CiMgRXhlcmNpY2lvIDQ5CnNhbGFyaW9fY2FybG9zID0gZmxvYXQoaW5wdXQoJ0RpZ2l0ZSBvIHNhbMOhcmlvIGRvIENhcmxvczogJykpCnNhbGFyaW9fam9hbyA9IHNhbGFyaW9fY2FybG9zIC8gMwphcGxpY2FjYW9fY2FybG9zID0gc2FsYXJpb19jYXJsb3MKYXBsaWNhY2FvX2pvYW8gPSBzYWxhcmlvX2pvYW8KbWVzZXMgPSAwCndoaWxlIGFwbGljYWNhb19jYXJsb3MgPiBhcGxpY2FjYW9fam9hbzoKICAgIGFwbGljYWNhb19jYXJsb3MgKz0gYXBsaWNhY2FvX2NhcmxvcyAqIDAuMDIKICAgIGFwbGljYWNhb19qb2FvICs9IGFwbGljYWNhb19qb2FvICogMC4wNQogICAgbWVzZXMgKz0gMQpwcmludChmJ3ttZXNlc30nKQ==</text>
       </register>
-      <register name="3" type="4">
-        <text encoding="base64">CgojIEV4ZXJjaWNpbyAzOApsaXN0YSA9IFtdCndoaWxlIFRydWU6CiAgICBudW0gPSBpbnQoaW5wdXQoJ0RpZ2l0ZSB1bSBuw7ptZXJvIG5hdHVyYWwgcG9zaXRpdm8gb3UgdW0gbsO6bWVybyBuZWdhdGl2byBwYXJhIHNhaXI6ICcpKQogICAgaWYgbnVtIDwgMDoKICAgICAgICBicmVhawogICAgbGlzdGEuYXBwZW5kKG51bSkKcHJpbnQoZidPIG1haW9yIG7Dum1lcm8gZGlnaXRhZG8gw6kge21heChsaXN0YSl9JykKcHJpbnQoZidPIG1lbm9yIG7Dum1lcm8gZGlnaXRhZG8gw6kge21pbihsaXN0YSl9JykK</text>
+      <register name="3" type="2">
+        <text encoding="base64">cHJpbnQoc2FsYXJpb19qb2FvKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">bWVub3IgPSAwCg==</text>
+        <text encoding="base64">cHJpbnQoc2FsYXJpb19jYXJsb3MpCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">bWFpb3IgPSAwCg==</text>
+        <text encoding="base64">c2FsYXJpbzIgPSBmbG9hdChpbnB1dCgnRGlnaXRlIG8gc2VndW5kbyBzYWzDoXJpbzogJykpCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">c2FsYXJpbzEgPSBmbG9hdChpbnB1dCgnRGlnaXRlIG8gcHJpbWVpcm8gc2Fsw6FyaW86ICcpKQo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICBtZW5vciA9IG51bQo=</text>
+        <text encoding="base64">c2FsYXJpbzIgPSBmbG9hdAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGlmIG51bSA8IG1lbm9yOgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBtYWlvciA9IG51bQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
