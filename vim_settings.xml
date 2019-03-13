@@ -3,8 +3,9 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1552433463205">
+      <file name="/Dummy.txt" timestamp="1552511741959">
         <mark key="[" line="0" column="0" />
+        <mark key="." line="0" column="30" />
       </file>
       <file name="/Python Console" timestamp="1552162971136">
         <mark key="[" line="0" column="0" />
@@ -21,11 +22,11 @@
         <mark key="^" line="55" column="26" />
         <mark key="." line="55" column="26" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/ppe/seção6/exercicio.py" timestamp="1552483752223">
-        <mark key="[" line="134" column="3" />
-        <mark key="]" line="136" column="0" />
-        <mark key="^" line="121" column="0" />
-        <mark key="." line="136" column="0" />
+      <file name="$USER_HOME$/PycharmProjects/ppe/seção6/exercicio.py" timestamp="1552511643698">
+        <mark key="[" line="168" column="0" />
+        <mark key="]" line="168" column="0" />
+        <mark key="." line="168" column="0" />
+        <mark key="^" line="168" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção7/counter.py" timestamp="1552163582561">
         <mark key="[" line="42" column="0" />
@@ -83,7 +84,7 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text>maio</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">ZGFkbzEgPSByYW5kcmFuZ2UoMSwgNikK</text>
@@ -95,25 +96,25 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="4">
-        <text encoding="base64">CiMgRXhlcmNpY2lvIDMyCmZyb20gcmFuZG9tIGltcG9ydCByYW5kcmFuZ2UKbiA9IGludChpbnB1dCgnRGlnaXRlIHF1YW50YXMgdmV6ZXMgb3MgZGFkb3Mgc2Vyw6NvIGxhbsOnYWRvczogJykpCmZvciBpIGluIHJhbmdlKG4pOgogICAgZGFkbzEgPSByYW5kcmFuZ2UoMSwgNikKICAgIGRhZG8yID0gcmFuZHJhbmdlKDEsIDYpCiAgICBpZiBkYWRvMSA+IGRhZG8yOgogICAgICAgIHByaW50KGYnTyBkYWRvIDEgKHtkYWRvMX0pIMOpIG1haW9yIHF1ZSBvIGRhZG8gMiAoe2RhZG8yfSkuJykKICAgIGVsaWYgZGFkbzEgPCBkYWRvMjoKICAgICAgICBwcmludChmJ08gZGFkbyAyICh7ZGFkbzJ9KSDDqSBtYWlvciBxdWUgbyBkYWRvIDEgKHtkYWRvMX0pLicpCiAgICBlbHNlOgogICAgICAgIHByaW50KGYnT3MgZGFkb3MgdGVtIG8gbWVzbW8gdmFsb3IgKGRhZG8xICh7ZGFkbzF9KSA9IGRhZG8yICh7ZGFkbzJ9KSkuJyk=</text>
+        <text encoding="base64">CgojIEV4ZXJjaWNpbyAzOApsaXN0YSA9IFtdCndoaWxlIFRydWU6CiAgICBudW0gPSBpbnQoaW5wdXQoJ0RpZ2l0ZSB1bSBuw7ptZXJvIG5hdHVyYWwgcG9zaXRpdm8gb3UgdW0gbsO6bWVybyBuZWdhdGl2byBwYXJhIHNhaXI6ICcpKQogICAgaWYgbnVtIDwgMDoKICAgICAgICBicmVhawogICAgbGlzdGEuYXBwZW5kKG51bSkKcHJpbnQoZidPIG1haW9yIG7Dum1lcm8gZGlnaXRhZG8gw6kge21heChsaXN0YSl9JykKcHJpbnQoZidPIG1lbm9yIG7Dum1lcm8gZGlnaXRhZG8gw6kge21pbihsaXN0YSl9JykK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">bWVub3IgPSAwCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZGFkbzEgPSByYW5kcmFuZ2UoMSwgNikKZGFkbzIgPSByYW5kcmFuZ2UoMSwgNikK</text>
+        <text encoding="base64">bWFpb3IgPSAwCg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">cHJpbnQoZGFkbzEpCg==</text>
+        <text encoding="base64">ICAgICAgICBtZW5vciA9IG51bQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIGlmIG51bSA8IG1lbm9yOgo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgICBtYWlvciA9IG51bQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
