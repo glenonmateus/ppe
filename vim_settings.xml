@@ -21,11 +21,11 @@
         <mark key="^" line="55" column="26" />
         <mark key="." line="55" column="26" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/ppe/seção6/exercicio.py" timestamp="1552482208827">
-        <mark key="[" line="125" column="64" />
-        <mark key="]" line="125" column="62" />
-        <mark key="^" line="125" column="62" />
-        <mark key="." line="125" column="62" />
+      <file name="$USER_HOME$/PycharmProjects/ppe/seção6/exercicio.py" timestamp="1552483752223">
+        <mark key="[" line="134" column="3" />
+        <mark key="]" line="136" column="0" />
+        <mark key="^" line="121" column="0" />
+        <mark key="." line="136" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção7/counter.py" timestamp="1552163582561">
         <mark key="[" line="42" column="0" />
@@ -83,10 +83,10 @@
         <text encoding="base64">Cg==</text>
       </register>
       <register name="-" type="4">
-        <text>divisor</text>
+        <text>)</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">bnVtMSA9IGludChpbnB1dCgnRGlnaXRlIG8gcHJpbWVpcm8gbsO6bWVybzogJykpCg==</text>
+        <text encoding="base64">ZGFkbzEgPSByYW5kcmFuZ2UoMSwgNikK</text>
       </register>
       <register name="1" type="2">
         <text encoding="base64">Cg==</text>
@@ -94,26 +94,26 @@
       <register name="2" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="3" type="4">
+        <text encoding="base64">CiMgRXhlcmNpY2lvIDMyCmZyb20gcmFuZG9tIGltcG9ydCByYW5kcmFuZ2UKbiA9IGludChpbnB1dCgnRGlnaXRlIHF1YW50YXMgdmV6ZXMgb3MgZGFkb3Mgc2Vyw6NvIGxhbsOnYWRvczogJykpCmZvciBpIGluIHJhbmdlKG4pOgogICAgZGFkbzEgPSByYW5kcmFuZ2UoMSwgNikKICAgIGRhZG8yID0gcmFuZHJhbmdlKDEsIDYpCiAgICBpZiBkYWRvMSA+IGRhZG8yOgogICAgICAgIHByaW50KGYnTyBkYWRvIDEgKHtkYWRvMX0pIMOpIG1haW9yIHF1ZSBvIGRhZG8gMiAoe2RhZG8yfSkuJykKICAgIGVsaWYgZGFkbzEgPCBkYWRvMjoKICAgICAgICBwcmludChmJ08gZGFkbyAyICh7ZGFkbzJ9KSDDqSBtYWlvciBxdWUgbyBkYWRvIDEgKHtkYWRvMX0pLicpCiAgICBlbHNlOgogICAgICAgIHByaW50KGYnT3MgZGFkb3MgdGVtIG8gbWVzbW8gdmFsb3IgKGRhZG8xICh7ZGFkbzF9KSA9IGRhZG8yICh7ZGFkbzJ9KSkuJyk=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="5" type="2">
+        <text encoding="base64">ZGFkbzEgPSByYW5kcmFuZ2UoMSwgNikKZGFkbzIgPSByYW5kcmFuZ2UoMSwgNikK</text>
+      </register>
+      <register name="6" type="2">
         <text encoding="base64">Cg==</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">Cgo=</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">CiMgRXhlcmNpY2lvIDMxCgpzb21hID0gMQpkaXZpc29yID0gMQpmb3IgaSBpbiByYW5nZSgzLCAxMDAsIDIpOgogICAgZGl2aXNvciArPSAxCiAgICBzb21hICs9IGkgLyBkaXZpc29yCnByaW50KHNvbWEp</text>
+      <register name="7" type="2">
+        <text encoding="base64">cHJpbnQoZGFkbzEpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaW50KGYne2l9IC8ge2Rpdmlzb3J9JykK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgIGZvciBqIGluIHJhbmdlKDIsIDUxKToK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
