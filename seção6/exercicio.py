@@ -228,5 +228,20 @@ for i in range(1, num + 1):
         valor += 1
         print(f'{valor}', end=' ')
     print()
+
+# Exercicio 54
+num = int(input('Digite um número: '))
+primo = True
+if num <= 1:
+    print('Valor inválido.')
+    quit()
+for i in range(2, num):
+    if num % i == 0:
+        primo = False
+        break
+if primo:
+    print('Número é primo.')
+else:
+    print('Número não é primo.')
 """
 
