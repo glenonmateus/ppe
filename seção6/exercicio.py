@@ -132,4 +132,17 @@ for i in range(n):
         print(f'O dado 2 ({dado2}) é maior que o dado 1 ({dado1}).')
     else:
         print(f'Os dados tem o mesmo valor (dado1 ({dado1}) = dado2 ({dado2})).')
+
+# Exercicio 35
+soma = 0
+inicial = int(input('Digite o valor inicial: '))
+final = int(input('Digite o valor final: '))
+if inicial > final:
+    print('Intervalo de valores inválido.')
+    quit()
+for i in range(inicial, final+1):
+    if i % 2 == 1:
+        print(f'Somando o valor {i} ...')
+        soma += i
+print(f'A soma dos ímpares é {soma}')
 """
