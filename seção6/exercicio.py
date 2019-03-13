@@ -207,5 +207,17 @@ while True:
         break
     else:
         print('Opção inválida.')
+
+# Exercicio 49
+salario_carlos = float(input('Digite o salário do Carlos: '))
+salario_joao = salario_carlos / 3
+aplicacao_carlos = salario_carlos
+aplicacao_joao = salario_joao
+meses = 0
+while aplicacao_carlos > aplicacao_joao:
+    aplicacao_carlos += aplicacao_carlos * 0.02
+    aplicacao_joao += aplicacao_joao * 0.05
+    meses += 1
+print(f'{meses}')
 """
 
