@@ -219,5 +219,14 @@ while aplicacao_carlos > aplicacao_joao:
     aplicacao_joao += aplicacao_joao * 0.05
     meses += 1
 print(f'{meses}')
+
+# Exercicio 53
+num = int(input('Digite um número: '))
+valor = 0
+for i in range(1, num + 1):
+    for j in range(1, i + 1):
+        valor += 1
+        print(f'{valor}', end=' ')
+    print()
 """
 
