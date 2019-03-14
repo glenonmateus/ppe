@@ -3,6 +3,9 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
+      <file name="/Dummy.txt" timestamp="1552591206827">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="/Python Console" timestamp="1552516755804">
         <mark key="[" line="0" column="0" />
       </file>
@@ -30,8 +33,8 @@
         <mark key="." line="44" column="25" />
         <mark key="^" line="44" column="25" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" timestamp="1552591200560">
-        <mark key="[" line="52" column="0" />
+      <file name="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" timestamp="1552592324447">
+        <mark key="[" line="62" column="0" />
         <mark key="]" line="60" column="51" />
         <mark key="." line="52" column="0" />
         <mark key="^" line="52" column="0" />
