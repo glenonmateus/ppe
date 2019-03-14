@@ -3,10 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1552560610504">
-        <mark key="[" line="0" column="0" />
-        <mark key="." line="0" column="30" />
-      </file>
       <file name="/Python Console" timestamp="1552516755804">
         <mark key="[" line="0" column="0" />
       </file>
@@ -33,6 +29,12 @@
         <mark key="]" line="44" column="25" />
         <mark key="." line="44" column="25" />
         <mark key="^" line="44" column="25" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" timestamp="1552591200560">
+        <mark key="[" line="52" column="0" />
+        <mark key="]" line="60" column="51" />
+        <mark key="." line="52" column="0" />
+        <mark key="^" line="52" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção5/exercicios.py" timestamp="1551531348883">
         <mark key="'" line="21" column="4" />
@@ -92,41 +94,48 @@
       <jump line="132" column="0" filename="$USER_HOME$/PycharmProjects/ppe/seção7/dicionarios.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Y29yZXMuYXBwZW5kKCdyb3hvJykKcHJpbnQoY29yZXMpCg==</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">CiMgRXhlcmNpY2lvIDEwCmZyb20gcmFuZG9tIGltcG9ydCByYW5kcmFuZ2UKbm90YXMgPSBbXQpmb3IgaSBpbiByYW5nZSgxNSk6CiAgICBub3RhID0gcmFuZHJhbmdlKDEwKQogICAgcHJpbnQoZidhIG5vdGEgZG8gYWx1bm8ge2l9IMOpIHtub3RhfScpCiAgICBub3Rhcy5hcHBlbmQobm90YSkKcHJpbnQoZidBIG3DqWRpYSBnZXJhbCBkYXMgbm90YXMge3N1bShub3RhcykgLyAxNX0nKQ==</text>
       </register>
       <register name="-" type="4">
-        <text>1</text>
+        <text>.reverse()</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">c2FsYXJpbzEgPSBmbG9hdChpbnB1dCgnRGlnaXRlIG8gcHJpbWVpcm8gc2Fsw6FyaW86ICcpKQo=</text>
+        <text encoding="base64">cG9zaWNhbzEgPSBpbnQoaW5wdXQoJ0RpZ2l0ZSBhIHByaW1laXJhIHBvc2nDp8OjbyBkYSBsaXN0YTogJykpCg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">Y29yZXMuYXBwZW5kKCdyb3hvJykKcHJpbnQoY29yZXMpCg==</text>
+      <register name="1" type="4">
+        <text encoding="base64">CiMgRXhlcmNpY2lvIDEwCmZyb20gcmFuZG9tIGltcG9ydCByYW5kcmFuZ2UKbm90YXMgPSBbXQpmb3IgaSBpbiByYW5nZSgxNSk6CiAgICBub3RhID0gcmFuZHJhbmdlKDEwKQogICAgcHJpbnQoZidhIG5vdGEgZG8gYWx1bm8ge2l9IMOpIHtub3RhfScpCiAgICBub3Rhcy5hcHBlbmQobm90YSkKcHJpbnQoZidBIG3DqWRpYSBnZXJhbCBkYXMgbm90YXMge3N1bShub3RhcykgLyAxNX0nKQ==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">c29tYV9ub3RhcyA9IDAK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">Y3Vyc28uYXBwZW5kKCdNYWlzIGRhZG9zIC4uLicpICAjIEF0dHJpYnV0ZUVycm9yCnByaW50KGN1cnNvKQo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
-      <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="4" type="4">
+        <text># Exercicio 8
+lista = []
+for i in range(6):
+    entrada = int(input('Digite um valor inteiro: '))
+    lista.append(entrada)
+print(lista[::-1])
+lista.reverse()
+print(lista)</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIHByaW50KGxpc3RhW2ldKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Zm9yIGkgaW4gcmFuZ2UoNSwgLTEsIC0xKToK</text>
       </register>
-      <register name="7" type="4">
-        <text encoding="base64">CiMgRXhlcmNpY2lvIDU3CmEgPSBpbnQoaW5wdXQoJ0RpZ2l0ZSBvIHByaW1laXJvIHZhbG9yIHBvc2l0aXZvIG1haW9yIHF1ZSAxOiAnKSkKYiA9IGludChpbnB1dCgnRGlnaXRlIG8gc2VndW5kbyB2YWxvciBwb3NpdGl2byBtYWlvciBxdWUgMTogJykpCnByaW1vID0gVHJ1ZQpjb250YWRvciA9IDAKZm9yIGkgaW4gcmFuZ2UoYSwgYiArIDEpOgogICAgZm9yIGogaW4gcmFuZ2UoYSwgaSk6CiAgICAgICAgaWYgaSAlIGogPT0gMDoKICAgICAgICAgICAgcHJpbnQoZid7aX0gbsOjbyDDqSBwcmltby4nKQogICAgICAgICAgICBwcmltbyA9IEZhbHNlCiAgICAgICAgICAgIGJyZWFrCiAgICBpZiBwcmltbzoKICAgICAgICBwcmludChmJ3tpfSDDqSBwcmltby4nKQogICAgICAgIGNvbnRhZG9yICs9IDEKICAgIHByaW1vID0gVHJ1ZQpwcmludChmJ0EgcXVhbnRpZGFkZSBkZSBwcmltb3Mgbm8gaW50ZXJ2YWxvIMOpIHtjb250YWRvcn0nKQ==</text>
+      <register name="7" type="2">
+        <text encoding="base64">IiIiCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIHByaW1vID0gVHJ1ZQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICBjb250YWRvciArPSAxCg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
