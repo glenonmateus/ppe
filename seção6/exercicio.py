@@ -259,4 +259,21 @@ for i in range(2, num + 1):
         soma += i
     primo = True
 print(f'A soma dos números primos no intervalo de valor {num} é {soma}')
+
+# Exercicio 57
+a = int(input('Digite o primeiro valor positivo maior que 1: '))
+b = int(input('Digite o segundo valor positivo maior que 1: '))
+primo = True
+contador = 0
+for i in range(a, b + 1):
+    for j in range(a, i):
+        if i % j == 0:
+            print(f'{i} não é primo.')
+            primo = False
+            break
+    if primo:
+        print(f'{i} é primo.')
+        contador += 1
+    primo = True
+print(f'A quantidade de primos no intervalo é {contador}')
 """
