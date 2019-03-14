@@ -72,6 +72,24 @@ for i in range(10):
 print(listaA)
 print(listaB)
 print(listaC)
+
+# Exercicio 20
+from random import randrange
+lista1 = []
+lista2 = []
+for i in range(10):
+    lista1.append(randrange(0, 50))
+    if lista1[i] % 2 != 0:
+        lista2.append(lista1[i])
+for i in range(len(lista1)):
+    print(lista1[i], end=' ')
+    if lista1.index(lista1[i]) % 2 != 0:
+        print()
+print()
+for i in range(len(lista2)):
+    print(lista2[i], end=' ')
+    if lista2.index(lista2[i]) % 2 != 0:
+        print()
 """
 
-# Exercicio
+
