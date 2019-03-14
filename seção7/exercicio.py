@@ -41,6 +41,15 @@ if posicao2 > 8 or posicao2 < 0:
     quit()
 soma = lista[posicao1] + lista[posicao2]
 print(f'A soma dos valores das posições escolhidas é {soma}')
+
+# Exercicio 8
+lista = []
+for i in range(6):
+    entrada = int(input('Digite um valor inteiro: '))
+    lista.append(entrada)
+print(lista[::-1])
+lista.reverse()
+print(lista)
 """
 
 
