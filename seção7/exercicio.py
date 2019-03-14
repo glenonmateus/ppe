@@ -25,7 +25,22 @@ for i in lista:
     lista_quadrado.append(i ** 2)
 print(lista)
 print(lista_quadrado)
-"""
 
 # Exercicio 4
+lista = []
+for i in range(8):
+    entrada = float(input('Digite um número: '))
+    lista.append(entrada)
+posicao1 = int(input('Digite a primeira posição da lista: '))
+if posicao1 > 8 or posicao1 < 0:
+    print('Posição inválida.')
+    quit()
+posicao2 = int(input('Digite a segunda posição da lista: '))
+if posicao2 > 8 or posicao2 < 0:
+    print('Posição inválida.')
+    quit()
+soma = lista[posicao1] + lista[posicao2]
+print(f'A soma dos valores das posições escolhidas é {soma}')
+"""
+
 
