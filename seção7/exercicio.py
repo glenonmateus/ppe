@@ -50,6 +50,15 @@ for i in range(6):
 print(lista[::-1])
 lista.reverse()
 print(lista)
+
+# Exercicio 10
+from random import randrange
+notas = []
+for i in range(15):
+    nota = randrange(10)
+    print(f'a nota do aluno {i} é {nota}')
+    notas.append(nota)
+print(f'A média geral das notas {sum(notas) / 15}')
 """
 
 
