@@ -207,5 +207,73 @@ while True:
         break
     else:
         print('Opção inválida.')
-"""
 
+# Exercicio 49
+salario_carlos = float(input('Digite o salário do Carlos: '))
+salario_joao = salario_carlos / 3
+aplicacao_carlos = salario_carlos
+aplicacao_joao = salario_joao
+meses = 0
+while aplicacao_carlos > aplicacao_joao:
+    aplicacao_carlos += aplicacao_carlos * 0.02
+    aplicacao_joao += aplicacao_joao * 0.05
+    meses += 1
+print(f'{meses}')
+
+# Exercicio 53
+num = int(input('Digite um número: '))
+valor = 0
+for i in range(1, num + 1):
+    for j in range(1, i + 1):
+        valor += 1
+        print(f'{valor}', end=' ')
+    print()
+
+# Exercicio 54
+num = int(input('Digite um número: '))
+primo = True
+if num <= 1:
+    print('Valor inválido.')
+    quit()
+for i in range(2, num):
+    if num % i == 0:
+        primo = False
+        break
+if primo:
+    print('Número é primo.')
+else:
+    print('Número não é primo.')
+
+# Exercicio 55
+num = int(input('Digite um número inteiro não negativo: '))
+soma = 0
+primo = True
+for i in range(2, num + 1):
+    for j in range(2, i):
+        if i % j == 0:
+            print(f'{i} não é primo')
+            primo = False
+            break
+    if primo:
+        print(f'somando {i} ...')
+        soma += i
+    primo = True
+print(f'A soma dos números primos no intervalo de valor {num} é {soma}')
+
+# Exercicio 57
+a = int(input('Digite o primeiro valor positivo maior que 1: '))
+b = int(input('Digite o segundo valor positivo maior que 1: '))
+primo = True
+contador = 0
+for i in range(a, b + 1):
+    for j in range(a, i):
+        if i % j == 0:
+            print(f'{i} não é primo.')
+            primo = False
+            break
+    if primo:
+        print(f'{i} é primo.')
+        contador += 1
+    primo = True
+print(f'A quantidade de primos no intervalo é {contador}')
+"""
