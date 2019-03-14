@@ -59,6 +59,19 @@ for i in range(15):
     print(f'a nota do aluno {i} é {nota}')
     notas.append(nota)
 print(f'A média geral das notas {sum(notas) / 15}')
+
+# Exercicio 21
+from random import randrange
+listaA = []
+listaB = []
+listaC = []
+for i in range(10):
+    listaA.append(randrange(100))
+    listaB.append(randrange(100))
+    listaC.append(listaA[i] - listaB[i])
+print(listaA)
+print(listaB)
+print(listaC)
 """
 
-
+# Exercicio
