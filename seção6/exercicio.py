@@ -243,5 +243,20 @@ if primo:
     print('Número é primo.')
 else:
     print('Número não é primo.')
-"""
 
+# Exercicio 55
+num = int(input('Digite um número inteiro não negativo: '))
+soma = 0
+primo = True
+for i in range(2, num + 1):
+    for j in range(2, i):
+        if i % j == 0:
+            print(f'{i} não é primo')
+            primo = False
+            break
+    if primo:
+        print(f'somando {i} ...')
+        soma += i
+    primo = True
+print(f'A soma dos números primos no intervalo de valor {num} é {soma}')
+"""
