@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1552591206827">
+      <file name="/Dummy.txt" timestamp="1552734238883">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/Python Console" timestamp="1552516755804">
@@ -33,11 +33,11 @@
         <mark key="." line="44" column="25" />
         <mark key="^" line="44" column="25" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" timestamp="1552599497217">
-        <mark key="[" line="61" column="3" />
-        <mark key="]" line="60" column="51" />
-        <mark key="." line="52" column="0" />
-        <mark key="^" line="52" column="0" />
+      <file name="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" timestamp="1552734475862">
+        <mark key="[" line="120" column="0" />
+        <mark key="]" line="121" column="11" />
+        <mark key="." line="121" column="11" />
+        <mark key="^" line="121" column="11" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção5/exercicios.py" timestamp="1551531348883">
         <mark key="'" line="21" column="4" />
@@ -95,47 +95,42 @@
     <jumps>
       <jump line="21" column="4" filename="$USER_HOME$/PycharmProjects/ppe/seção5/exercicios.py" />
       <jump line="132" column="0" filename="$USER_HOME$/PycharmProjects/ppe/seção7/dicionarios.py" />
+      <jump line="88" column="0" filename="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" />
+      <jump line="112" column="11" filename="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">CiMgRXhlcmNpY2lvIDEwCmZyb20gcmFuZG9tIGltcG9ydCByYW5kcmFuZ2UKbm90YXMgPSBbXQpmb3IgaSBpbiByYW5nZSgxNSk6CiAgICBub3RhID0gcmFuZHJhbmdlKDEwKQogICAgcHJpbnQoZidhIG5vdGEgZG8gYWx1bm8ge2l9IMOpIHtub3RhfScpCiAgICBub3Rhcy5hcHBlbmQobm90YSkKcHJpbnQoZidBIG3DqWRpYSBnZXJhbCBkYXMgbm90YXMge3N1bShub3RhcykgLyAxNX0nKQ==</text>
+        <text>)</text>
       </register>
       <register name="-" type="4">
-        <text>.reverse()</text>
+        <text>)</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">cG9zaWNhbzEgPSBpbnQoaW5wdXQoJ0RpZ2l0ZSBhIHByaW1laXJhIHBvc2nDp8OjbyBkYSBsaXN0YTogJykpCg==</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">CiMgRXhlcmNpY2lvIDEwCmZyb20gcmFuZG9tIGltcG9ydCByYW5kcmFuZ2UKbm90YXMgPSBbXQpmb3IgaSBpbiByYW5nZSgxNSk6CiAgICBub3RhID0gcmFuZHJhbmdlKDEwKQogICAgcHJpbnQoZidhIG5vdGEgZG8gYWx1bm8ge2l9IMOpIHtub3RhfScpCiAgICBub3Rhcy5hcHBlbmQobm90YSkKcHJpbnQoZidBIG3DqWRpYSBnZXJhbCBkYXMgbm90YXMge3N1bShub3RhcykgLyAxNX0nKQ==</text>
+        <text encoding="base64">CiMgRXhlcmNpY2lvIDI2CmZyb20gcmFuZG9tIGltcG9ydCByYW5kcmFuZ2UKZnJvbSBtYXRoIGltcG9ydCBzcXJ0CgpsaXN0YSA9IFtdCmZvciBpIGluIHJhbmdlKDEwKToKICAgIGxpc3RhLmFwcGVuZChyYW5kcmFuZ2UoMCwgNTApKQpwcmludChsaXN0YSkKCm1lZGlhID0gc3VtKGxpc3RhKSAvIGxlbihsaXN0YSkKcHJpbnQoZidBIG3DqWRpYSBkYSBhbW9zdHJhIGRlIGRhZG9zIMOpIHttZWRpYX0nKQoKc29tYXRvcmlvID0gMApmb3IgaSBpbiByYW5nZShsZW4obGlzdGEpKToKICAgIHNvbWF0b3JpbyArPSAobGlzdGFbaV0gLSBtZWRpYSkgKiogMgpwcmludChmJ08gc29tYXTDs3JpbyDDqSB7c29tYXRvcmlvfScpCgpkZXN2aW9fcGFkcmFvID0gc3FydChzb21hdG9yaW8gLyBsZW4obGlzdGEpKQpwcmludChmJ08gZGVzdmlvIHBhZHLDo28gZG8gY29uanVudG8gZGUgZGFkb3Mgw6kge2Rlc3Zpb19wYWRyYW99Jyk=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">c29tYV9ub3RhcyA9IDAK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+        <text encoding="base64">cHJpbnQobGlzdGEpCg==</text>
       </register>
-      <register name="4" type="4">
-        <text># Exercicio 8
-lista = []
-for i in range(6):
-    entrada = int(input('Digite um valor inteiro: '))
-    lista.append(entrada)
-print(lista[::-1])
-lista.reverse()
-print(lista)</text>
+      <register name="4" type="2">
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHByaW50KGxpc3RhW2ldKQo=</text>
+        <text encoding="base64">cHJpbnQoKHNvbWF0b3JpbyAvIGxlbihsaXN0YSkpICoqICgxLzIpKQo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Zm9yIGkgaW4gcmFuZ2UoNSwgLTEsIC0xKToK</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">IiIiCg==</text>
+        <text encoding="base64">cHJpbnQoc3FydChzb21hdG9yaW8gLyBsZW4obGlzdGEpKSkK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">cHJpbnQoKQo=</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">Cg==</text>
@@ -172,6 +167,12 @@ print(lista)</text>
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed U</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed R</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
