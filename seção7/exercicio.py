@@ -169,6 +169,29 @@ for i in range(10):
 print(v1)
 print(v2)
 print(v1.union(v2))
-"""
 
+# Exercicio 32
+from random import randrange
+x = []
+y = []
+for i in range(5):
+    x.append(randrange(0, 50))
+    y.append(randrange(0, 50))
+print(f'x: {x}')
+print(f'y: {y}')
+
+print('Soma: ', end='')
+for i in range(len(x)):
+    print(x[i] + y[i], end=' ')
+
+print('\nMultiplicação: ', end='')
+for i in range(len(x)):
+    print(x[i] * y[i], end=' ')
+
+conjunto_x = set(x)
+conjunto_y = set(y)
+print(f'\nDiferença: {conjunto_x.difference(conjunto_y)}')
+print(f'Interseção: {conjunto_x.intersection(conjunto_y)}')
+print(f'União: {conjunto_x.union(conjunto_y)}')
+"""
 
