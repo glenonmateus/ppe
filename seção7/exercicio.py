@@ -110,6 +110,24 @@ print(f'O somatório é {somatorio}')
 
 desvio_padrao = sqrt(somatorio / len(lista))
 print(f'O desvio padrão do conjunto de dados é {desvio_padrao}')
-"""
 
+# Exercicio 27
+from random import randrange
+lista = []
+for i in range(10):
+    lista.append(randrange(0, 50))
+print(lista)
+
+primo = True
+for i in range(len(lista)):
+    for j in range(2, lista[i]):
+        if lista[i] % j == 0:
+            primo = False
+            break
+    if primo:
+        print(f'O elemento {lista[i]} é primo e está na posição {i}')
+    else:
+        print(f'O elemento {lista[i]} não é primo e está na posição {i}!')
+    primo = True
+"""
 
