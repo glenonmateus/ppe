@@ -90,6 +90,26 @@ for i in range(len(lista2)):
     print(lista2[i], end=' ')
     if lista2.index(lista2[i]) % 2 != 0:
         print()
+
+# Exercicio 26
+from random import randrange
+from math import sqrt
+
+lista = []
+for i in range(10):
+    lista.append(randrange(0, 50))
+print(lista)
+
+media = sum(lista) / len(lista)
+print(f'A média da amostra de dados é {media}')
+
+somatorio = 0
+for i in range(len(lista)):
+    somatorio += (lista[i] - media) ** 2
+print(f'O somatório é {somatorio}')
+
+desvio_padrao = sqrt(somatorio / len(lista))
+print(f'O desvio padrão do conjunto de dados é {desvio_padrao}')
 """
 
 
