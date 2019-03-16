@@ -129,5 +129,23 @@ for i in range(len(lista)):
     else:
         print(f'O elemento {lista[i]} não é primo e está na posição {i}!')
     primo = True
+
+# Exercicio 28
+from random import randrange
+v = []
+v1 = []
+v2 = []
+for i in range(10):
+    v.append(randrange(0, 50))
+print(v)
+
+for i in range(len(v)):
+    if v[i] % 2 == 0:
+        v1.append(v[i])
+    else:
+        v2.append(v[i])
+print(f'Os valores pares do vetor v é \n{v1}')
+print(f'Os valores ímpares do vetor v é \n{v2}')
 """
+
 
