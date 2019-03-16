@@ -193,5 +193,22 @@ conjunto_y = set(y)
 print(f'\nDiferença: {conjunto_x.difference(conjunto_y)}')
 print(f'Interseção: {conjunto_x.intersection(conjunto_y)}')
 print(f'União: {conjunto_x.union(conjunto_y)}')
+
+# Exercicio 33
+from random import randrange
+dados = []
+for i in range(15):
+    dados.append(randrange(0, 10))
+print(dados)
+
+cont_zeros = 0
+for i in range(len(dados)):
+    if dados[i] == 0:
+        cont_zeros += 1
+print(cont_zeros)
+
+for i in range(cont_zeros):
+    dados.remove(0)
+print(dados)
 """
 
