@@ -3,9 +3,8 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1552517727483">
+      <file name="/Dummy.txt" timestamp="1552737739129">
         <mark key="[" line="0" column="0" />
-        <mark key="." line="0" column="30" />
       </file>
       <file name="/Python Console" timestamp="1552516755804">
         <mark key="[" line="0" column="0" />
@@ -22,17 +21,23 @@
         <mark key="^" line="55" column="26" />
         <mark key="." line="55" column="26" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/ppe/seção6/exercicio.py" timestamp="1552518588783">
-        <mark key="[" line="257" column="17" />
-        <mark key="]" line="258" column="15" />
-        <mark key="." line="258" column="15" />
-        <mark key="^" line="258" column="15" />
+      <file name="$USER_HOME$/PycharmProjects/ppe/seção6/exercicio.py" timestamp="1552560607912">
+        <mark key="[" line="279" column="0" />
+        <mark key="]" line="279" column="0" />
+        <mark key="^" line="261" column="0" />
+        <mark key="." line="279" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção7/counter.py" timestamp="1552163582561">
         <mark key="[" line="42" column="0" />
         <mark key="]" line="44" column="25" />
         <mark key="." line="44" column="25" />
         <mark key="^" line="44" column="25" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" timestamp="1552738005534">
+        <mark key="[" line="156" column="16" />
+        <mark key="]" line="156" column="16" />
+        <mark key="." line="156" column="16" />
+        <mark key="^" line="156" column="16" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção5/exercicios.py" timestamp="1551531348883">
         <mark key="'" line="21" column="4" />
@@ -51,6 +56,12 @@
         <mark key="]" line="48" column="13" />
         <mark key="^" line="48" column="13" />
         <mark key="." line="48" column="13" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/ppe/seção8/definindo_funções.py" timestamp="1552565632056">
+        <mark key="[" line="29" column="0" />
+        <mark key="]" line="30" column="1" />
+        <mark key="^" line="30" column="1" />
+        <mark key="." line="30" column="1" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção7/deque.py" timestamp="1552343553538">
         <mark key="[" line="26" column="60" />
@@ -84,43 +95,45 @@
     <jumps>
       <jump line="21" column="4" filename="$USER_HOME$/PycharmProjects/ppe/seção5/exercicios.py" />
       <jump line="132" column="0" filename="$USER_HOME$/PycharmProjects/ppe/seção7/dicionarios.py" />
+      <jump line="88" column="0" filename="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" />
+      <jump line="112" column="11" filename="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Y29uanVudG8yID0ge30K</text>
       </register>
       <register name="-" type="4">
-        <text>'\n'</text>
+        <text>ímpares</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">c2FsYXJpbzEgPSBmbG9hdChpbnB1dCgnRGlnaXRlIG8gcHJpbWVpcm8gc2Fsw6FyaW86ICcpKQo=</text>
+        <text encoding="base64">Y29uanVudG8xID0ge30K</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">Y29uanVudG8yID0ge30K</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICBpZiBwcmltbzoKICAgICAgICAgICAgc29tYSArPSBpCg==</text>
+        <text encoding="base64">Y29uanVudG8xID0ge30K</text>
       </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICBzb21hICs9IGkK</text>
+      <register name="3" type="4">
+        <text encoding="base64">CiMgRXhlcmNpY2lvIDI4CmZyb20gcmFuZG9tIGltcG9ydCByYW5kcmFuZ2UKdiA9IFtdCnYxID0gW10KdjIgPSBbXQpmb3IgaSBpbiByYW5nZSgxMCk6CiAgICB2LmFwcGVuZChyYW5kcmFuZ2UoMCwgNTApKQpwcmludCh2KQoKZm9yIGkgaW4gcmFuZ2UobGVuKHYpKToKICAgIGlmIHZbaV0gJSAyID09IDA6CiAgICAgICAgdjEuYXBwZW5kKHZbaV0pCiAgICBlbHNlOgogICAgICAgIHYyLmFwcGVuZCh2W2ldKQpwcmludChmJ09zIHZhbG9yZXMgcGFyZXMgZG8gdmV0b3IgdiDDqSBcbnt2MX0nKQpwcmludChmJ09zIHZhbG9yZXMgw61tcGFyZXMgZG8gdmV0b3IgdiDDqSBcbnt2Mn0nKQ==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgIGlmIG51bSAlIGkgPT0gMDoK</text>
+        <text encoding="base64">YQo=</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="7" type="4">
-        <text encoding="base64">CiMgRXhlcmNpY2lvIDU0Cm51bSA9IGludChpbnB1dCgnRGlnaXRlIHVtIG7Dum1lcm86ICcpKQpwcmltbyA9IFRydWUKaWYgbnVtIDw9IDE6CiAgICBwcmludCgnVmFsb3IgaW52w6FsaWRvLicpCiAgICBxdWl0KCkKZm9yIGkgaW4gcmFuZ2UoMiwgbnVtKToKICAgIGlmIG51bSAlIGkgPT0gMDoKICAgICAgICBwcmltbyA9IEZhbHNlCiAgICAgICAgYnJlYWsKaWYgcHJpbW86CiAgICBwcmludCgnTsO6bWVybyDDqSBwcmltby4nKQplbHNlOgogICAgcHJpbnQoJ07Dum1lcm8gbsOjbyDDqSBwcmltby4nKQ==</text>
+        <text encoding="base64">CiMgRXhlcmNpY2lvIDI3CmZyb20gcmFuZG9tIGltcG9ydCByYW5kcmFuZ2UKbGlzdGEgPSBbXQpmb3IgaSBpbiByYW5nZSgxMCk6CiAgICBsaXN0YS5hcHBlbmQocmFuZHJhbmdlKDAsIDUwKSkKcHJpbnQobGlzdGEpCgpwcmltbyA9IFRydWUKZm9yIGkgaW4gcmFuZ2UobGVuKGxpc3RhKSk6CiAgICBmb3IgaiBpbiByYW5nZSgyLCBsaXN0YVtpXSk6CiAgICAgICAgaWYgbGlzdGFbaV0gJSBqID09IDA6CiAgICAgICAgICAgIHByaW1vID0gRmFsc2UKICAgICAgICAgICAgYnJlYWsKICAgIGlmIHByaW1vOgogICAgICAgIHByaW50KGYnTyBlbGVtZW50byB7bGlzdGFbaV19IMOpIHByaW1vIGUgZXN0w6EgbmEgcG9zacOnw6NvIHtpfScpCiAgICBlbHNlOgogICAgICAgIHByaW50KGYnTyBlbGVtZW50byB7bGlzdGFbaV19IG7Do28gw6kgcHJpbW8gZSBlc3TDoSBuYSBwb3Npw6fDo28ge2l9IScpCiAgICBwcmltbyA9IFRydWUKICAgIA==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICBwcmludChmJ07Dum1lcm8gbsOjbyDDqSBwcmltby4nKQo=</text>
+        <text encoding="base64">ICAgICAgICAgICAgcHJpbnQoZid7bGlzdGFbal19IG7Do28gw6kgcHJpbW8hJykK</text>
       </register>
-      <register name="9" type="4">
-        <text encoding="base64">CiMgRXhlcmNpY2lvIDUzCm51bSA9IGludChpbnB1dCgnRGlnaXRlIHVtIG7Dum1lcm86ICcpKQp2YWxvciA9IDAKZm9yIGkgaW4gcmFuZ2UoMSwgbnVtICsgMSk6CiAgICBmb3IgaiBpbiByYW5nZSgxLCBpICsgMSk6CiAgICAgICAgdmFsb3IgKz0gMQogICAgICAgIHByaW50KGYne3ZhbG9yfScsIGVuZD0nICcpCiAgICBwcmludCgp</text>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICBwcmludChmJ3tqfSDDqSBwcmltbyEnKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
@@ -154,6 +167,12 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed U</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed R</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
