@@ -146,6 +146,29 @@ for i in range(len(v)):
         v2.append(v[i])
 print(f'Os valores pares do vetor v é \n{v1}')
 print(f'Os valores ímpares do vetor v é \n{v2}')
+
+# Exercicio 30
+from random import randrange
+conjunto1 = set()
+conjunto2 = set()
+
+for i in range(10):
+    conjunto1.add(randrange(0, 50))
+    conjunto2.add(randrange(0, 50))
+print(conjunto1)
+print(conjunto2)
+print(conjunto1.intersection(conjunto2))
+
+# Exercicio 31
+from random import randrange
+v1 = set()
+v2 = set()
+for i in range(10):
+    v1.add(randrange(0, 50))
+    v2.add(randrange(0, 50))
+print(v1)
+print(v2)
+print(v1.union(v2))
 """
 
 
