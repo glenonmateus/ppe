@@ -210,5 +210,17 @@ print(cont_zeros)
 for i in range(cont_zeros):
     dados.remove(0)
 print(dados)
-"""
 
+# Exercicio 34
+lista = []
+entrada = int(input('Digite um número: '))
+lista.append(entrada)
+for i in range(9):
+    while True:
+        entrada = int(input(f'Digite um número: '))
+        if lista.count(entrada) == 0:
+            lista.append(entrada)
+            break
+        print('Valor existente ...')
+print(lista)
+"""
