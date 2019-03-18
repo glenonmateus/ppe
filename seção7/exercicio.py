@@ -169,6 +169,58 @@ for i in range(10):
 print(v1)
 print(v2)
 print(v1.union(v2))
+
+# Exercicio 32
+from random import randrange
+x = []
+y = []
+for i in range(5):
+    x.append(randrange(0, 50))
+    y.append(randrange(0, 50))
+print(f'x: {x}')
+print(f'y: {y}')
+
+print('Soma: ', end='')
+for i in range(len(x)):
+    print(x[i] + y[i], end=' ')
+
+print('\nMultiplicação: ', end='')
+for i in range(len(x)):
+    print(x[i] * y[i], end=' ')
+
+conjunto_x = set(x)
+conjunto_y = set(y)
+print(f'\nDiferença: {conjunto_x.difference(conjunto_y)}')
+print(f'Interseção: {conjunto_x.intersection(conjunto_y)}')
+print(f'União: {conjunto_x.union(conjunto_y)}')
+
+# Exercicio 33
+from random import randrange
+dados = []
+for i in range(15):
+    dados.append(randrange(0, 10))
+print(dados)
+
+cont_zeros = 0
+for i in range(len(dados)):
+    if dados[i] == 0:
+        cont_zeros += 1
+print(cont_zeros)
+
+for i in range(cont_zeros):
+    dados.remove(0)
+print(dados)
+
+# Exercicio 34
+lista = []
+entrada = int(input('Digite um número: '))
+lista.append(entrada)
+for i in range(9):
+    while True:
+        entrada = int(input(f'Digite um número: '))
+        if lista.count(entrada) == 0:
+            lista.append(entrada)
+            break
+        print('Valor existente ...')
+print(lista)
 """
-
-
