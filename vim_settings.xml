@@ -56,11 +56,12 @@
         <mark key="^" line="48" column="13" />
         <mark key="." line="48" column="13" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/ppe/seção8/definindo_funções.py" timestamp="1552565632056">
-        <mark key="[" line="29" column="0" />
-        <mark key="]" line="30" column="1" />
-        <mark key="^" line="30" column="1" />
-        <mark key="." line="30" column="1" />
+      <file name="$USER_HOME$/PycharmProjects/ppe/seção8/definindo_funções.py" timestamp="1552946829373">
+        <mark key="'" line="6" column="0" />
+        <mark key="[" line="34" column="0" />
+        <mark key="]" line="33" column="11" />
+        <mark key="^" line="33" column="11" />
+        <mark key="." line="33" column="11" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção7/deque.py" timestamp="1552343553538">
         <mark key="[" line="26" column="60" />
@@ -96,6 +97,7 @@
       <jump line="132" column="0" filename="$USER_HOME$/PycharmProjects/ppe/seção7/dicionarios.py" />
       <jump line="88" column="0" filename="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" />
       <jump line="112" column="11" filename="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" />
+      <jump line="6" column="0" filename="$USER_HOME$/PycharmProjects/ppe/seção8/definindo_funções.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
