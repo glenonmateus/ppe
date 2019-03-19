@@ -3,7 +3,7 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1552776705544">
+      <file name="/Dummy.txt" timestamp="1552948610437">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/Python Console" timestamp="1552516755804">
@@ -34,7 +34,6 @@
         <mark key="^" line="44" column="25" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" timestamp="1552776716522">
-        <mark key="[" line="213" column="0" />
         <mark key="]" line="211" column="12" />
         <mark key="." line="195" column="0" />
         <mark key="^" line="195" column="0" />
@@ -57,11 +56,12 @@
         <mark key="^" line="48" column="13" />
         <mark key="." line="48" column="13" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/ppe/seção8/definindo_funções.py" timestamp="1552565632056">
-        <mark key="[" line="29" column="0" />
-        <mark key="]" line="30" column="1" />
-        <mark key="^" line="30" column="1" />
-        <mark key="." line="30" column="1" />
+      <file name="$USER_HOME$/PycharmProjects/ppe/seção8/definindo_funções.py" timestamp="1552948593823">
+        <mark key="'" line="74" column="1" />
+        <mark key="[" line="103" column="33" />
+        <mark key="]" line="104" column="0" />
+        <mark key="^" line="104" column="0" />
+        <mark key="." line="104" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/ppe/seção7/deque.py" timestamp="1552343553538">
         <mark key="[" line="26" column="60" />
@@ -97,13 +97,15 @@
       <jump line="132" column="0" filename="$USER_HOME$/PycharmProjects/ppe/seção7/dicionarios.py" />
       <jump line="88" column="0" filename="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" />
       <jump line="112" column="11" filename="$USER_HOME$/PycharmProjects/ppe/seção7/exercicio.py" />
+      <jump line="6" column="0" filename="$USER_HOME$/PycharmProjects/ppe/seção8/definindo_funções.py" />
+      <jump line="74" column="1" filename="$USER_HOME$/PycharmProjects/ppe/seção8/definindo_funções.py" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">CiMgRXhlcmNpY2lvIDMzCmZyb20gcmFuZG9tIGltcG9ydCByYW5kcmFuZ2UKZGFkb3MgPSBbXQpmb3IgaSBpbiByYW5nZSgxNSk6CiAgICBkYWRvcy5hcHBlbmQocmFuZHJhbmdlKDAsIDEwKSkKcHJpbnQoZGFkb3MpCgpjb250X3plcm9zID0gMApmb3IgaSBpbiByYW5nZShsZW4oZGFkb3MpKToKICAgIGlmIGRhZG9zW2ldID09IDA6CiAgICAgICAgY29udF96ZXJvcyArPSAxCnByaW50KGNvbnRfemVyb3MpCgpmb3IgaSBpbiByYW5nZShjb250X3plcm9zKToKICAgIGRhZG9zLnJlbW92ZSgwKQpwcmludChkYWRvcyk=</text>
+        <text>()</text>
       </register>
       <register name="-" type="4">
-        <text>Interseção</text>
+        <text>()</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">cHJpbnQoZidJbnRlcnNlw6fDo286IHtjb25qdW50b194LmludGVyc2VjdGlvbihjb25qdW50b195KX0nKQo=</text>
