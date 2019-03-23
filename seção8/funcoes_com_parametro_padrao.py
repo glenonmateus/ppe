@@ -170,3 +170,10 @@ print(fora())
 print(fora())
 print(dentro())  # NameError
 """
+
+
+def diz_oi():
+    return('Hello')
+
+
+print(diz_oi())

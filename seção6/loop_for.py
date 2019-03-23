@@ -12,7 +12,7 @@ for(int i = 0; i < limitador; i++){
 
 # Python
 
-for item in iteravel:
+for item in interavel:
     //execução do loop
 
 Utilizamos loops para iterar sobre sequências ou sobre valores iteráveis

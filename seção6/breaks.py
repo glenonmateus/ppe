@@ -3,7 +3,7 @@ Saindo de loops com break
 
 Funciona da mesma forma que nas linguagens C ou Java.
 
-Utilizamos o break para sair de loops de maneira projetada.
+Utilizamos o break para sair de loops de meneira projetada.
 """
 
 # Exemplo 1

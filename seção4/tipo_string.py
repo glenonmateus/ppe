@@ -42,10 +42,10 @@ nome = 'Geek University'
 print(nome[::-1])
 print(nome.replace('e', 'i'))
 
-texto = 'socorram me subino onibus em marrocos'  # Palíndromo
+texto = 'socorram me subino onibus em marrocos' # Palíndromo
 print(texto)
 print(texto[::-1])
 
-nome = 'ana'  # Palíndromo
+nome = 'ana' # Palíndromo
 print(nome)
 print(nome[::-1])
