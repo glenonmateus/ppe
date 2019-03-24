@@ -223,4 +223,33 @@ for i in range(9):
             break
         print('Valor existente ...')
 print(lista)
+
+# Exercicio 36
+from random import randrange
+
+vetor = []
+for num in range(10):
+    vetor.append(randrange(0, 50))
+vetor.sort()
+print(vetor)
+
+# Exercicio 37
+from random import randrange
+
+vetor = []
+for num in range(11):
+    vetor.append(randrange(0, 50))
+print(vetor)
+
+vetor_crescente = []
+vetor_decrescente = []
+for num in range(len(vetor)):
+    if num < 6:
+        vetor_crescente.append(vetor[num])
+    else:
+        vetor_decrescente.append(vetor[num])
+vetor_crescente.sort()
+print(vetor_crescente)
+vetor_decrescente.sort(reverse=True)
+print(vetor_decrescente)
 """
