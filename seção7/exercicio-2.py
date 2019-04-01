@@ -45,4 +45,72 @@ for linha in range(len(matriz)):
             localizacao.append((linha, coluna))
 print(matriz)
 print(localizacao)
+
+# Exercicio 5
+from random import randrange
+matriz = [[randrange(0, 50) for coluna in range(5)] for linha in range(5)]
+entrada = randrange(0, 50)
+x = -1
+y = -1
+
+for linha in range(5):
+    for coluna in range(5):
+        print(matriz[linha][coluna], end=' ')
+    print()
+
+print(f'Valor da entrada: {entrada}')
+
+for linha in range(5):
+    for coluna in range(5):
+        if matriz[linha][coluna] == entrada:
+            x = linha
+            y = coluna
+
+if x == -1:
+    print('Não encontrado.')
+else:
+    print(f'Valor encontrado na linha {x} e coluna {y}')
+
+# Exercicio 6
+from random import randrange
+
+matriz1 = [[randrange(0, 100) for coluna in range(4)] for linha in range(4)]
+matriz2 = [[randrange(0, 100) for coluna in range(4)] for linha in range(4)]
+
+print(matriz1)
+print(matriz2)
+
+matriz_maior = [[max(matriz1[linha][coluna], matriz2[linha][coluna])
+                 for coluna in range(4)] for linha in range(4)]
+print(matriz_maior)
+
+# Exercicio 7
+matriz = [['*' for coluna in range(10)] for linha in range(10)]
+
+for linha in range(10):
+    for coluna in range(10):
+        if linha < coluna:
+            matriz[linha][coluna] = (2 * linha) + (7 * coluna) - 2
+        elif linha == coluna:
+            matriz[linha][coluna] = (3 * linha ** 2) - 1
+        else:
+            matriz[linha][coluna] = (4 * linha ** 3) - (5 * coluna ** 2) + 1
+print(matriz)
+
+# Exercicio 8
+from random import randrange
+
+matriz = [[randrange(0, 100) for coluna in range(3)] for linha in range(3)]
+
+for linha in range(3):
+    for coluna in range(3):
+        print(matriz[linha][coluna], end=' ')
+    print()
+
+soma = 0
+for linha in range(3):
+    for coluna in range(3):
+        if coluna > linha:
+            soma += matriz[linha][coluna]
+print(f'A soma dos valores acima da diagonal principal é {soma}')
 """
