@@ -111,8 +111,10 @@ def soma_impares(numeros):
     return total
 
 
-lista = [1, 2, 3, 4, 5, 6, 7]
-print(soma_impares(lista))
-
-tupla = tuple(lista)
-print(soma_impares(tupla))
+if __name__ == '__main__':
+    lista = [1, 2, 3, 4, 5, 6, 7]
+    print(soma_impares(lista))
+    tupla = tuple(lista)
+    print(soma_impares(tupla))
+else:
+    print('O módulo funcoes_com_parametro.py foi importado.')
