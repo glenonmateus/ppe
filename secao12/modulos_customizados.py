@@ -25,6 +25,5 @@ print(list(map(c_para_f, cidades)))
 import sys
 sys.path.append('../secao8')
 
-from funcoes_com_parametro import soma_impares as si
-
-print(si([1, 2, 3, 4, 5, 6, 7]))
+from funcoes_com_parametro import soma_impares
+print(soma_impares([1, 2, 3, 4, 5, 6, 7, 8, 9]))
