@@ -80,6 +80,7 @@ from send2trash import send2trash
 send2trash('frutas.txt')
 # OBS: se o arquivo não existir, teremos OSError
 
+# Trabalhando com arquivos e diretórios temporários
 # criando um diretório temporário
 with tempfile.TemporaryDirectory() as tmp:
     print(f'Criei o diretório temporário em {tmp}')
@@ -104,6 +105,5 @@ with tempfile.TemporaryFile() as tmp:
 # utilizamos b''
 """
 
-# Trabalhando com arquivos e diretórios temporários
 import os
 import tempfile
