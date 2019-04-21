@@ -135,8 +135,6 @@ class Funcionario(Pessoa):
         return f'Funcionário: {self.__matricula} Nome: {self._Pessoa__nome}'
 
 
-# Sobrescrita de métodos (overriding)
-
 cliente1 = Cliente('Angelina', 'Jolie', '123.456.678-00', 5000)
 funcionario1 = Funcionario('Felicity', 'Jones', '987.654.321-11', 1234)
 
