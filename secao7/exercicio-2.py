@@ -102,15 +102,66 @@ from random import randrange
 
 matriz = [[randrange(0, 100) for coluna in range(3)] for linha in range(3)]
 
-for linha in range(3):
-    for coluna in range(3):
-        print(matriz[linha][coluna], end=' ')
-    print()
-
 soma = 0
 for linha in range(3):
     for coluna in range(3):
         if coluna > linha:
             soma += matriz[linha][coluna]
 print(f'A soma dos valores acima da diagonal principal é {soma}')
+
+# Exercicio 9
+
+from random import randint
+
+matriz = [[randint(0, 50) for coluna in range(3)] for linha in range(3)]
+soma = 0
+for linha in range(len(matriz)):
+    for coluna in range(len(matriz)):
+        if linha > coluna:
+            soma += matriz[linha][coluna]
+
+print(f'A soma dos elementos abaixo da diagonal principal é {soma}')
+
+# Exercicio 11
+
+from random import randint
+
+matriz = [[randint(0, 50) for coluna in range(3)] for linha in range(3)]
+soma = 0
+
+for linha in range(3):
+    for coluna in range(3):
+        if linha + coluna == len(matriz) - 1:
+            soma += matriz[linha][coluna]
+
+print(f'A soma da diagnal secundária é {soma}')
+
+# Exercicio 12
+from random import randint
+
+matriz = [[randint(0, 50) for coluna in range(3)] for linha in range(3)]
+
+transposta = []
+for linha in range(3):
+    transposta.append([matriz[coluna][linha] for coluna in range(3)])
+print()
+
+print(f'Matriz: {matriz}\nTranposta: {transposta}')
+
+# Exercicio 13
+from random import randint
+import numpy as np
+
+ordem = 4
+matriz = [[randint(1, 20) for coluna in range(ordem)] for linha in range(ordem)]
+
+print(np.matrix(matriz))
+
+print()
+for linha in range(ordem):
+    for coluna in range(ordem):
+        if linha < coluna:
+            matriz[linha][coluna] = 0
+
+print(np.matrix(matriz))
 """
