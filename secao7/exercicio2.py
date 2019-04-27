@@ -298,4 +298,32 @@ for linha in range(len(matriz)):
 print(np.matrix(matriz))
 print(f'A maior nota final é {maior_nota}')
 print(f'A média das notas finais é {soma / len(matriz)}')
+
+# Exercicio 20
+from random import randint
+import numpy as np
+
+matriz = [[randint(0, 50) for coluna in range(6)] for linha in range(3)]
+print(np.matrix(matriz))
+
+soma = 0
+for linha in range(3):
+    for coluna in range(1, 6, 2):
+        soma += matriz[linha][coluna]
+
+print(f'A soma dos elementos das colunas ímpares são {soma}')
+
+soma = 0
+contador = 0
+for linha in range(3):
+    soma += matriz[linha][1] + matriz[linha][3]
+    contador += 2
+media = soma / contador
+print(f'A média dos elementos da segunda e quarta coluna é {media}')
+
+soma = 0
+for linha in range(3):
+    matriz[linha][5] = matriz[linha][0] + matriz[linha][1]
+
+print(np.matrix(matriz))
 """
