@@ -397,7 +397,16 @@ from random import randint
 import numpy as np
 
 matriz_a = [[randint(0, 50) for coluna in range(3)] for linha in range(3)]
-matriz_b = [[matriz_a[linha][coluna] ** 2 for coluna in range(3)] for linha in range(3)]
+matriz_b = [[matriz_a[linha][coluna] ** 2 for coluna in range(3)]
+             for linha in range(3)]
 print(np.matrix(matriz_a))
 print(np.matrix(matriz_b))
 """
+
+# Exercicio 25
+import numpy as np
+from random import choice
+
+opcoes = [-1, 0, 1]
+tabuleiro = [[choice(opcoes) for coluna in range(3)] for linha in range(3)]
+print(np.matrix(tabuleiro))
