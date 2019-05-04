@@ -377,4 +377,27 @@ while True:
             print(np.matrix(matriz_subtracao))
     else:
         break
+
+# Exercicio 22
+
+from random import randint
+import numpy as np
+
+matriz_a = [[randint(0, 50) for coluna in range(3)] for linha in range(3)]
+matriz_b = [[randint(0, 50) for coluna in range(3)] for linha in range(3)]
+print(np.matrix(matriz_a))
+print(np.matrix(matriz_b))
+
+matriz_c = [[matriz_a[linha][coluna] * matriz_b[linha][coluna]
+             for coluna in range(3)] for linha in range(3)]
+print(np.matrix(matriz_c))
+
+# Exercicio 23
+from random import randint
+import numpy as np
+
+matriz_a = [[randint(0, 50) for coluna in range(3)] for linha in range(3)]
+matriz_b = [[matriz_a[linha][coluna] ** 2 for coluna in range(3)] for linha in range(3)]
+print(np.matrix(matriz_a))
+print(np.matrix(matriz_b))
 """
