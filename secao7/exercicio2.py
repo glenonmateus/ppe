@@ -298,4 +298,83 @@ for linha in range(len(matriz)):
 print(np.matrix(matriz))
 print(f'A maior nota final é {maior_nota}')
 print(f'A média das notas finais é {soma / len(matriz)}')
+
+# Exercicio 20
+from random import randint
+import numpy as np
+
+matriz = [[randint(0, 50) for coluna in range(6)] for linha in range(3)]
+print(np.matrix(matriz))
+
+soma = 0
+for linha in range(3):
+    for coluna in range(1, 6, 2):
+        soma += matriz[linha][coluna]
+
+print(f'A soma dos elementos das colunas ímpares são {soma}')
+
+soma = 0
+contador = 0
+for linha in range(3):
+    soma += matriz[linha][1] + matriz[linha][3]
+    contador += 2
+media = soma / contador
+print(f'A média dos elementos da segunda e quarta coluna é {media}')
+
+soma = 0
+for linha in range(3):
+    matriz[linha][5] = matriz[linha][0] + matriz[linha][1]
+
+print(np.matrix(matriz))
+
+# Exercicio 21
+from random import randint
+import numpy as np
+
+matriz1 = [[randint(0, 50) for coluna in range(2)] for linha in range(2)]
+matriz2 = [[randint(0, 50) for coluna in range(2)] for linha in range(2)]
+matriz_soma = []
+matriz_subtracao = []
+
+while True:
+    print('''
+    (a) somar as duas matrizes
+    (b) subtrair a primeira matriz da segunda
+    (c) adicionar uma costante às duas matrizes
+    (d) imprimir as matrizes
+    ''')
+    opcao = input('Escolha uma das opções acima: ')
+    if opcao == 'a':
+        matriz_soma.clear()
+        for i in range(2):
+            linha = []
+            for j in range(2):
+                linha.append(matriz1[i][j] + matriz2[i][j])
+            matriz_soma.append(linha)
+    elif opcao == 'b':
+        matriz_subtracao.clear()
+        for i in range(2):
+            linha = []
+            for j in range(2):
+                linha.append(matriz1[i][j] - matriz2[i][j])
+            matriz_subtracao.append(linha)
+    elif opcao == 'c':
+        constante = int(input('Digite o valor da constante: '))
+        for i in range(2):
+            for j in range(2):
+                matriz1[i][j] += constante
+                matriz2[i][j] += constante
+    elif opcao == 'd':
+        print('\nMatriz 1:')
+        print(np.matrix(matriz1))
+        print('\nMatriz 2:')
+        print(np.matrix(matriz2))
+        if matriz_soma:
+            print('\nMatriz Soma:')
+            print(np.matrix(matriz_soma))
+        if matriz_subtracao:
+            print('\nMatriz Subtração:')
+            print(np.matrix(matriz_subtracao))
+    else:
+        break
 """
